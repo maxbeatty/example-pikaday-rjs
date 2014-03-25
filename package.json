@@ -1,0 +1,30 @@
+{
+  "name": "example-pikaday-rjs",
+  "version": "0.0.0",
+  "description": "pikaday is being requested anonymously in r.js builds",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/maxbeatty/example-pikaday-rjs.git"
+  },
+  "keywords": [
+    "pikaday",
+    "requirejs"
+  ],
+  "author": "Max Beatty",
+  "license": "LICENSE",
+  "readmeFilename": "README.md",
+  "gitHead": "aa02a2fb976f3f57c93300ae6f10269dd2286f30",
+  "bugs": {
+    "url": "https://github.com/maxbeatty/example-pikaday-rjs/issues"
+  },
+  "devDependencies": {
+    "grunt-contrib-requirejs": "~0.4.3",
+    "grunt-contrib-coffee": "~0.10.1",
+    "coffee-script": "~1.7.1",
+    "grunt": "~0.4.4"
+  }
+}
