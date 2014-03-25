@@ -24,7 +24,8 @@ module.exports = (grunt) ->
     requirejs:
       lib:
         options:
-          mainConfigFile: 'lib/config.js'
+          mainConfigFile: './lib/config.js'
+          baseUrl: 'lib/'
           optimize: 'uglify2'
           preserveLicenseComments: false
           useStrict: true

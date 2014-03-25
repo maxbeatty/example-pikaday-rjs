@@ -1,4 +1,5 @@
 require.config
+  baseUrl: 'lib/'
 
   paths:
     requireLib : 'vendor/require'

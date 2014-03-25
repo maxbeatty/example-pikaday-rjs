@@ -5,7 +5,7 @@ require [
   console.log 'moment loaded', moment.version
 
   p = new Pikaday
-    field: document.getElementByid('datepicker')
+    field: document.getElementById('datepicker')
     onSelect: -> console.log @getMoment().format('Do MMMM YYYY')
 
   console.log 'pikaday loaded', p
