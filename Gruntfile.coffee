@@ -33,6 +33,6 @@ module.exports = (grunt) ->
           generateSourceMaps: true
           name: 'main' # relative to baseUrl
           include: ['requireLib'] # from config
-          out: 'lib/build.js'
+          out: 'lib/build-fixed.js'
 
   grunt.registerTask 'default', ['coffee', 'requirejs']
